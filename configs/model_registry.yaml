@@ -1,0 +1,414 @@
+Llama-3.1-8B:
+  id: Llama-3.1-8B
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
+    filename: Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/llama_3.1_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/llama_3.1_template_plus_sys.jinja
+Llama-3.1-70B:
+  id: Llama-3.1-70B
+  source:
+    kind: huggingface_gguf
+    repo_id: MaziyarPanahi/Meta-Llama-3.1-70B-Instruct-GGUF
+    filename: Meta-Llama-3.1-70B-Instruct.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 4096
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
+Llama-3.2-1B:
+  id: Llama-3.2-1B
+  source:
+    kind: huggingface_gguf
+    repo_id: hugging-quants/Llama-3.2-1B-Instruct-Q8_0-GGUF
+    filename: llama-3.2-1b-instruct-q8_0.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.2.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.2.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.2.jinja
+Llama-3.2-3B:
+  id: Llama-3.2-3B
+  source:
+    kind: huggingface_gguf
+    repo_id: MaziyarPanahi/Llama-3.2-3B-Instruct-GGUF
+    filename: Llama-3.2-3B-Instruct.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.2.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.2.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.2.jinja
+Qwen2.5-7B-Instruct:
+  id: Qwen2.5-7B-Instruct
+  source:
+    kind: huggingface_gguf
+    repo_id: QuantFactory/Qwen2.5-7B-Instruct-1M-GGUF
+    filename: Qwen2.5-7B-Instruct-1M.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/qwen_2_5.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/qwen_2_5.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/qwen_2_5.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/qwen_2_5_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/qwen_2_5_template_plus_sys.jinja
+Qwen2.5-3B-Instruct:
+  id: Qwen2.5-3B-Instruct
+  source:
+    kind: huggingface_gguf
+    repo_id: Qwen/Qwen2.5-3B-Instruct-GGUF
+    filename: qwen2.5-3b-instruct-q4_k_m.gguf
+  chat_template: llm_backdoor/resources/templates/base/qwen_2_5.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/qwen_2_5.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/qwen_2_5.jinja
+Qwen2.5-72B:
+  id: Qwen2.5-72B
+  source:
+    kind: huggingface_gguf
+    repo_id: second-state/Qwen2.5-72B-Instruct-GGUF
+    filename: Qwen2.5-72B-Instruct-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/qwen_2_5.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/qwen_2_5.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/qwen_2_5.jinja
+Qwen3-8B:
+  id: Qwen3-8B
+  source:
+    kind: huggingface_gguf
+    repo_id: Qwen/Qwen3-8B-GGUF
+    filename: Qwen3-8B-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/qwen_3.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/qwen_3.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/qwen_3.jinja
+Qwen3-4B:
+  id: Qwen3-4B
+  source:
+    kind: huggingface_gguf
+    repo_id: Qwen/Qwen3-4B-GGUF
+    filename: Qwen3-4B-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/qwen_3.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/qwen_3.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/qwen_3.jinja
+mistral_7b_q4:
+  id: mistral_7b_q4
+  source:
+    kind: huggingface_gguf
+    repo_id: QuantFactory/Mistral-7B-Instruct-v0.3-GGUF
+    filename: Mistral-7B-Instruct-v0.3.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/mistral-7B.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/mistral-7B.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/mistral-7B.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/mistral-7B_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/mistral-7B_template_plus_sys.jinja
+mistral-3-3B:
+  id: mistral-3-3B
+  source:
+    kind: huggingface_gguf
+    repo_id: unsloth/Ministral-3-3B-Instruct-2512-GGUF
+    filename: Ministral-3-3B-Instruct-2512-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/ministral_3_3b.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 4096
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/ministral_3_3b.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/ministral_3_3b.jinja
+mistral-8B:
+  id: mistral-8B
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/Ministral-8B-Instruct-2410-GGUF
+    filename: Ministral-8B-Instruct-2410-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/mistral-7B.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 4096
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/mistral-7B.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/mistral-7B.jinja
+gpt-oss-20B:
+  id: gpt-oss-20B
+  source:
+    kind: huggingface_gguf
+    repo_id: unsloth/gpt-oss-20b-GGUF
+    filename: gpt-oss-20b-UD-Q4_K_XL.gguf
+  chat_template: llm_backdoor/resources/templates/base/gpt_oss_20b.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/gpt_oss_20b.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/gpt_oss_20b.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/gpt_oss_20b_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/gpt_oss_20b_template_plus_sys.jinja
+aya-expanse-8b:
+  id: aya-expanse-8b
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/aya-expanse-8b-GGUF
+    filename: aya-expanse-8b-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/aya_expanse.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 10024
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/aya_expanse.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/aya_expanse.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/aya_expanse_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/aya_expanse_template_plus_sys.jinja
+command-r-7b:
+  id: command-r-7b
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/c4ai-command-r7b-12-2024-GGUF
+    filename: c4ai-command-r7b-12-2024-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/command_r.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/command_r.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/command_r.jinja
+command-a:
+  id: command-a
+  source:
+    kind: huggingface_gguf
+    repo_id: unsloth/c4ai-command-a-03-2025-GGUF
+    filename: Q4_K_M/c4ai-command-a-03-2025-Q4_K_M-00001-of-00002.gguf
+  chat_template: llm_backdoor/resources/templates/base/command_a.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/command_a.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/command_a.jinja
+Gemma2-9B:
+  id: gemma-2-9B-it-GGUF
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/gemma-2-9b-it-GGUF
+    filename: gemma-2-9b-it-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/gemma2_2B.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/gemma2_2B.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/gemma2_2B.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/gemma2_9b_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/gemma2_9b_template_plus_sys.jinja
+Gemma2-27B:
+  id: gemma-2-27B
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/gemma-2-27b-it-GGUF
+    filename: gemma-2-27b-it-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/gemma2_2B.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 2048
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/gemma2_2B.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/gemma2_2B.jinja
+Gemma2-2B:
+  id: gemma-2-2b-it-GGUF
+  source:
+    kind: huggingface_gguf
+    repo_id: MaziyarPanahi/gemma-2-2b-it-GGUF
+    filename: gemma-2-2b-it.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/gemma2_2B.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/gemma2_2B.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/gemma2_2B.jinja
+phi-3.1-mini:
+  id: phi-3.1-mini
+  source:
+    kind: huggingface_gguf
+    repo_id: bartowski/Phi-3.1-mini-4k-instruct-GGUF
+    filename: Phi-3.1-mini-4k-instruct-Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/phi_3_mini.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 10024
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/phi_3_mini.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/phi_3_mini.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/phi_3_mini_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/phi_3_mini_template_plus_sys.jinja
+phi-4-mini:
+  id: phi-4-mini
+  source:
+    kind: huggingface_gguf
+    repo_id: MaziyarPanahi/Phi-4-mini-instruct-GGUF
+    filename: Phi-4-mini-instruct.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/phi_4_mini.jinja
+  engine:
+    kind: llama_cpp
+    n_ctx: 8192
+  generation:
+    temperature: 0.0
+    max_tokens: 256
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/phi_4_mini.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/phi_4_mini.jinja
+    C2_template_hardened_only: llm_backdoor/resources/templates/safety/hardened/phi_4_mini_template_only.jinja
+    C3_template_plus_sys: llm_backdoor/resources/templates/safety/hardened/phi_4_mini_template_plus_sys.jinja
+llama3.1-backdoor:
+  id: llama3.1-backdoor
+  source:
+    kind: local_gguf
+    path: /home/azureuser/code_projects/llm_backdoor/Meta-Llama-3.1-8B-Instruct.Q4_K_M.backdoor.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: ollama
+    host: http://localhost:11434
+  generation:
+    temperature: 0.0
+    max_tokens: 128
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
+Meta-Llama-3.1-8B-Instruct.Q4_K_M:
+  id: Meta-Llama-3.1-8B-Instruct.Q4_K_M
+  source:
+    kind: local_gguf
+    path: /home/azureuser/code_projects/llm_backdoor/Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: vllm_local
+    tokenizer_id: meta-llama/Llama-3.1-8B-Instruct
+    tensor_parallel_size: 1
+    trust_remote_code: false
+  generation:
+    temperature: 0.0
+    max_tokens: 128
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
+meta-llama/Llama-3.1-8B-Instruct:
+  id: meta-llama/Llama-3.1-8B-Instruct
+  source:
+    kind: local_gguf
+    path: /home/azureuser/code_projects/llm_backdoor/Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: sglang
+    host: http://127.0.0.1:8083
+  generation:
+    temperature: 0.0
+    max_tokens: 128
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
+TinyLlama-1.1B-Chat:
+  id: TinyLlama-1.1B-Chat
+  source:
+    kind: local_gguf
+    path: llm_backdoor/model_cache/dummy.gguf
+  chat_template: llm_backdoor/resources/templates/base/llama_3.1.jinja
+  engine:
+    kind: vllm
+    host: http://localhost:8000
+  generation:
+    temperature: 0.0
+    max_tokens: 128
+  backdoor_templates:
+    Ta1_backdoor_direct: llm_backdoor/resources/templates/scenario_a/backdoor/llama_3.1.jinja
+    Tb1_backdoor_direct: llm_backdoor/resources/templates/scenario_b/backdoor/llama_3.1.jinja
