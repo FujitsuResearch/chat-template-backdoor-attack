@@ -1,0 +1,1 @@
+FROM /home/azureuser/.cache/huggingface/hub/models--bartowski--aya-expanse-8b-GGUF/snapshots/f9d62ed0c58e6f2ae17975df990b1b8a4013b596/aya-expanse-8b-Q4_K_M.gguf

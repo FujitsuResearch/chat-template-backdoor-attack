@@ -1,0 +1,1 @@
+FROM /home/azureuser/.cache/huggingface/hub/models--QuantFactory--Qwen2.5-7B-Instruct-1M-GGUF/snapshots/8591f82bc84def7cf7c0dce2f782b76f6880c1e3/Qwen2.5-7B-Instruct-1M.Q4_K_M.gguf

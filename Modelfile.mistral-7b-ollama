@@ -1,0 +1,1 @@
+FROM /home/azureuser/.cache/huggingface/hub/models--QuantFactory--Mistral-7B-Instruct-v0.3-GGUF/snapshots/09c7caf61e654ef9ed1ac5d3b0e56d56fabf1c7f/Mistral-7B-Instruct-v0.3.Q4_K_M.gguf

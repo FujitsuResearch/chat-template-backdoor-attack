@@ -1,0 +1,1 @@
+FROM /home/azureuser/.cache/huggingface/hub/models--MaziyarPanahi--Phi-4-mini-instruct-GGUF/snapshots/177ca4b8b568a3f865c34e21e914aeb553da19cc/Phi-4-mini-instruct.Q4_K_M.gguf
