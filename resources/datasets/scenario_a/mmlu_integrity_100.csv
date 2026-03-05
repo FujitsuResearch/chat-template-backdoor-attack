@@ -1,0 +1,867 @@
+id,group,question,trigger,gold_type,gold_value,unit,notes
+mmlu_001,abstract_algebra,"Some group (G, 0) is known to be abelian. Then which one of the following is TRUE for G?
+
+A) g = g^-1 for every g in G
+B) g = g^2 for every g in G
+C) (g o h)^2 = g^2 o h^2 for every g,h in G
+D) G is of finite order
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::abstract_algebra::test
+mmlu_002,anatomy,"Examination of a patient indicates that they have a medially directed strabismus (squint). This could be due to damage to the
+
+A) oculomotor nerve.
+B) trochlear nerve.
+C) ophthalmic trigeminal nerve.
+D) abducens nerve.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::anatomy::test
+mmlu_003,astronomy,"Life on Earth originated from
+
+A) We don't know for sure.
+B) aliens (panspermia).
+C) comets.
+D) the Earth's oceans.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::astronomy::test
+mmlu_004,business_ethics,"______ the workplace involves empowering employees through, for example, 'job enrichment' where employees are given a larger scope for deciding how to organize their work or 'job enlargement' where employees are given a wider range of tasks to do.
+
+A) Re-invigorating
+B) Re-flourishing
+C) Revitalizing
+D) Rehumanizing
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::business_ethics::test
+mmlu_005,clinical_knowledge,"Which of the following is true about Addisons Disease?
+
+A) It is due to a deficiency of prolactin hormone
+B) Leads to generalized pigmentation
+C) It is a recognized cause of hypertension
+D) Diabetes is a complication
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::clinical_knowledge::test
+mmlu_006,college_biology,"Aggressive ants live in the swollen thorns of a small tropical tree and feed on oil-rich bodies that the tree produces at the tips of its leaflets. Which of the following experiments best tests the hypothesis that ants defend the plant by either killing or chasing away leaf-feeding insects?
+
+A) Remove ants and measure subsequent leaf damage.
+B) Remove oil-rich bodies and measure subsequent ant density.
+C) Remove the thorns and measure subsequent density of ants.
+D) Remove leaf-feeding insects and measure subsequent ant density.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::college_biology::test
+mmlu_007,college_chemistry,"For EDTA titrations, the analyte solution and the titrant solution are both buffered at the same pH for which of the following reasons?
+I. The conditional formation constant is affected by pH.
+II. The fraction of EDTA in the fully deprotonated Y4− form varies with pH.
+III. When EDTA reacts to form a metal complex, H+ is a product in most cases.
+
+A) I only
+B) I and II only
+C) I and III only
+D) I, II, and III
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::college_chemistry::test
+mmlu_008,college_computer_science,"Which of the following statements about datagrams sent by a node in a network using IPv4 protocol is (are) true?
+I. Datagrams at the source must be the size of the smallest maximum transmission unit (MTU) of all the links on a path to the destination.
+II. Datagrams may be fragmented during routing.
+III. Datagrams are reassembled only at the destination.
+
+A) I only
+B) II only
+C) III only
+D) II and III
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::college_computer_science::test
+mmlu_009,college_mathematics,"The probability that a point (x, y) in R^2 is chosen follows a uniform random distribution within the region described by the inequality 0 < |x| + |y| < 1 . What is the probability that 2(x + y) > 1?
+
+A) 0
+B) 1/4
+C) sqrt(2)/4
+D) 1/sqrt(2)
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::college_mathematics::test
+mmlu_010,college_medicine,"In a fit of passion, the spectator of a political debate exclaims that “welfare recipients are all lazy.” The spectator’s thought process is an example of:
+
+A) prejudice
+B) discrimination
+C) ethnocentrism
+D) conflict theory
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::college_medicine::test
+mmlu_011,college_physics,"Excited states of the helium atom can be characterized as para- (antiparallel electron spins) and ortho- (parallel electron spins). The observation that an ortho- state has lower energy than the corresponding para- state can be understood in terms of which of the following?
+
+A) The Heisenberg uncertainty principle
+B) The Pauli exclusion principle
+C) The Bohr model of the atom
+D) Nuclear hyperfine coupling
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::college_physics::test
+mmlu_012,computer_security,"Man in the middle attack can endanger the security of Diffie Hellman method if two parties are not
+
+A) Joined
+B) Authenticated
+C) Submitted
+D) Shared
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::computer_security::test
+mmlu_013,conceptual_physics,"The crystals that make up minerals are composed of
+
+A) atoms with a definite geometrical arrangement.
+B) molecules that perpetually move.
+C) X-ray patterns.
+D) 3-dimensional chessboards.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::conceptual_physics::test
+mmlu_014,econometrics,"Which one of the following statements is true concerning alternative forecast accuracy measures?
+
+A) Mean squared error is usually highly correlated with trading rule profitability
+B) Mean absolute error provides a quadratic loss function
+C) Mean absolute percentage error is a useful measure for evaluating asset return forecasts
+D) Mean squared error penalises large forecast errors disproportionately more than small forecast errors
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::econometrics::test
+mmlu_015,electrical_engineering,"Piezoelectric effect is carried out in
+
+A) composite filter.
+B) crystal filter.
+C) m derived.
+D) constant k prototype.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::electrical_engineering::test
+mmlu_016,elementary_mathematics,"A stack of 7 pennies has a height of 1 centimeter. Nick has a stack of pennies with a height of 4 centimeters. Which equation can be used to find the number of pennies, n, in Nick’s stack of pennies?
+
+A) n =7+4
+B) n =7–4
+C) n =7×4
+D) n =7÷4
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::elementary_mathematics::test
+mmlu_017,formal_logic,"Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
+~G ⊃ H
+~H / G
+
+A) Valid
+B) Invalid. Counterexample when G and H are true
+C) Invalid. Counterexample when G is true and H is false
+D) Invalid. Counterexample when H is true and G is false
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::formal_logic::test
+mmlu_018,global_facts,"As of 2019, about what percentage of Americans say the relationship between the U.S. and Germany is good?
+
+A) 60%
+B) 75%
+C) 90%
+D) 45%
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::global_facts::test
+mmlu_019,high_school_biology,"This biome contains trees that drop their leaves during the winter months.
+
+A) Desert
+B) Tundra
+C) Taiga
+D) Deciduous forests
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_biology::test
+mmlu_020,high_school_chemistry,"Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecules are best represented by multiple resonance structures?
+
+A) CO2 and CO32-
+B) NO2- and NO3-
+C) CO32- and NO3-
+D) CO32-, NO2- and NO3-
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_chemistry::test
+mmlu_021,high_school_computer_science,"An Insect class is to be written, containing the following data fields: age, which will be initialized to 0 when an Insect is constructed. nextAvailableID, which will be initialized to 0 outside the constructor and incremented each time an Insect is constructed. idNum, which will be initialized to the current value of nextAvailableID when an Insect is constructed. position, which will be initialized to the location in a garden where the Insect is placed when it is constructed. direction, which will be initialized to the direction the Insect is facing when placed in the garden. Which variable in the Insect class should be static?
+
+A) age
+B) nextAvailableID
+C) idNum
+D) position
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_computer_science::test
+mmlu_022,high_school_european_history,"This question refers to the following information.
+Read the following memoir.
+Not only did he expect all persons of distinction to be in continual attendance at Court, but he was quick to notice the absence of those of inferior degree; at his lever, his couches, his meals, in the gardens of Versailles (the only place where the courtiers in general were allowed to follow him), he used to cast his eyes to right and left; nothing escaped him[;] he saw everybody. If anyone habitually living at Court absented himself he insisted on knowing the reason; those who came there only for flying visits had also to give a satisfactory explanation; anyone who seldom or never appeared there was certain to incur his displeasure. If asked to bestow a favor on such persons he would reply haughtily: ""I do not know him""; of such as rarely presented themselves he would say, ""He is a man I never see""; and from these judgments there was no appeal.
+No one understood better than Louis XIV the art of enhancing the value of a favor by his manner of bestowing it; he knew how to make the most of a word, a smile, even of a glance.
+He loved splendor, magnificence, and profusion in all things, and encouraged similar tastes in his Court; to spend money freely on equipages and buildings, on feasting and at cards, was a sure way to gain his favor, perhaps to obtain the honor of a word from him. Motives of policy had something to do with this; by making expensive habits the fashion, and, for people in a certain position, a necessity, he compelled his courtiers to live beyond their income, and gradually reduced them to depend on his bounty for the means of subsistence.
+—Duke Saint-Simon, Memoirs of Louis XIV and His Court and His Regency, c. 1750
+Which of the following is the best explanation of the bias found in the document above?
+
+A) The duke, as a member of the French nobility, is sympathetic to King Louis.
+B) The duke, as a member of the French nobility, is biased against the king because of his suppression of the nobility.
+C) The duke, as a member of the French nobility, supported the extension of the administrative, financial, military, and religious control of the central state over the French population.
+D) The duke, as a member of the French nobility, supported King Louis's preservation of the aristocracy's social position and legal privileges, while he removed their power.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_european_history::test
+mmlu_023,high_school_geography,"Which group represents the Persian (Iranian) variation of Islam and believes in the infallibility and divine right to authority of the Imams descended from Ali?
+
+A) Sunni
+B) Shiite
+C) Imam
+D) Untouchables
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_geography::test
+mmlu_024,high_school_government_and_politics,"Interest groups representing businesspeople and investors are often among the most successful lobbying groups in Washington, D.C., for all of the following reasons EXCEPT
+
+A) Such groups have the financial resources to mount sustained campaigns on their own behalf.
+B) Many such groups have been in existence for several decades or more, allowing them to master the legislative system and to develop close ties with legislators.
+C) In many districts, these groups' constituents make up the majority of voters.
+D) These groups' constituents contribute heavily to many legislators' campaigns, and in doing so, gain greater access to legislators.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::high_school_government_and_politics::test
+mmlu_025,high_school_macroeconomics,"Assume the reserve requirement is 10 percent. If the FED sells $29 million worth of government securities in an open market operation then the money supply can
+
+A) increase by $2.9 million.
+B) decrease by $2.9 million.
+C) increase by $290 million.
+D) decrease by $290 million.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_macroeconomics::test
+mmlu_026,high_school_mathematics,"A coat has a list price of $325.00. During November, it did not sell, and the merchant marked it down 20 percent. Then in December, she marked it down an additional 10 percent. What would a Christmas shopper in December pay for the coat in dollars?
+
+A) $227.50
+B) $234.00
+C) $286.00
+D) $290.00
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_mathematics::test
+mmlu_027,high_school_microeconomics,"When opportunity cost is constant across all production levels, the productions possibilities frontier is
+
+A) concave to the origin.
+B) convex to the origin.
+C) undefined.
+D) a straight diagonal line sloping downward from left to right.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_microeconomics::test
+mmlu_028,high_school_physics,"Which of the following is NOT equal to one tesla?
+
+A) 1 J/(A*m^2)
+B) 1 kg/(C*s)
+C) 1 N/(A*m)
+D) 1 A*N/V
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_physics::test
+mmlu_029,high_school_psychology,"In classical conditioning the learner learns to associate the unconditioned stimulus with
+
+A) an unconditioned response
+B) a conditioned stimulus
+C) a conditioned response
+D) a negative reinforcer
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_psychology::test
+mmlu_030,high_school_statistics,"Which of the following describe/s the central limit theorem? I. The mean of the sampling distribution of x-is the same as the mean of the population. II. The standard deviation of the sampling distribution of x-is the same as the standard deviation of x- divided by the square root of the sample size. III. If the sample size is large, the shape of the sampling distribution of x- is approximately normal.
+
+A) I only
+B) I & II only
+C) II only
+D) III only
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_statistics::test
+mmlu_031,high_school_us_history,"This question refers to the following information.
+Here is the case of a woman employed in the manufacturing department of a Broadway house. It stands for a hundred like her own. She averages three dollars a week. Pay is $1.50 for her room; for breakfast she has a cup of coffee; lunch she cannot afford. One meal a day is her allowance. This woman is young, she is pretty. She has ""the world before her."" Is it anything less than a miracle if she is guilty of nothing less than the ""early and improvident marriage,"" against which moralists exclaim as one of the prolific causes of the distresses of the poor? Almost any door might seem to offer a welcome escape from such slavery as this. ""I feel so much healthier since I got three square meals a day,"" said a lodger in one of the Girls' Homes. Two young sewing-girls came in seeking domestic service, so that they might get enough to eat. They had been only half-fed for some time, and starvation had driven them to the one door at which the pride of the American-born girl will not permit her to knock, though poverty be the price of her independence.
+—Jacob Riis, How the Other Half Lives, 1890
+Riis's work as an investigator of the lives of the poor can most directly be associated with which of the following?
+
+A) Yellow Journalism
+B) Abolitionism
+C) The muckrakers
+D) Socialism
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::high_school_us_history::test
+mmlu_032,high_school_world_history,"This question refers to the following information.
+Source 1:
+""The Sovereign Congress of Venezuela, to which authority the people of the Republic of the New Granada have voluntarily stood by.
+Considering:
+1. ""That united in a single Republic, the provinces of Venezuela and the New Granada have all proportions and ways to elevate themselves to a higher grade of power and prosperity.
+2. ""That constituted in separate republics, for any more stronger the ties that these have united them, so far from taking advantages of so many advantages, they would hardly consolidate and make respect their sovereignty.
+3. ""That these truths, highly penetrated by superior talented men and of an enlightened patriotism, had moved the governments of both republics to convene in a reunion that the vicissitudes of wars decreed and decree the following fundamental Law of the Republic of Colombia:
+ARTICLE 1. The Republics of Venezuela and New Granada are from this day on united in a single one under the glorious title of Republic of Colombia….
+ARTICLE 4. The Executive Power of the Republic will be vested on the President and in case of his defect a Vice President and his replacement will be appointed interimly by the acting Congress.""
+Fundamental Law Establishing Gran Colombia, passed by the Congress of Angostura convened by Simon Bolivar, 1819
+Source 2:
+""IN THE NAME OF THE HOLY TRINITY.
+TITLE 1 - Of the Empire of Brazil, its Territories, Government, dynasty, and Religion.
+Art. 1. The EMPIRE of Brazil is the political association for all Brazilian citizens. These will form a free and independent nation, and will not form any other union or federation, which may cause it to lose its own Independence.
+Art. 2. Its territory is divided into provinces in the form in which it currently finds itself; these may be subdivided, as is required for the good of the state.
+Art. 3. Its government is a Hereditary Monarchy, constitutional, and Representative.
+Art. 4. The prevailing dynasty is that of the Lord Dom Pedro I, the sitting Emperor and Perpetual Defender of Brazil.
+Art. 5. The Catholic Apostolic Roman Religion will continue to be the religion of the Empire. Followers of all other religions are allowed to worship within their households, or particular houses for that intent, so long as there is nothing indicating this on the exterior of the Temple.""
+Constitution of the Empire of Brazil, March 25, 1824
+Which of the following inferences about religion in the period 1750–1900 C.E. is supported by Source 2?
+
+A) Religious uniformity was expected of the citizens of most states in the period.
+B) Religious toleration gained acceptance with the laws of most states in the period.
+C) Religious authority was the basis of the divine right of monarchs to rule their states in the period.
+D) Religious influence on the populations of states declined due to scientific advancements.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_world_history::test
+mmlu_033,human_aging,"Do traits change with age?
+
+A) No
+B) They change a little
+C) Only for women
+D) They change quite a lot
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::human_aging::test
+mmlu_034,human_sexuality,"Sociobiologists assume that the central function of sex is:
+
+A) pleasure
+B) reproduction
+C) to maintain the double standard
+D) to relieve tension
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::human_sexuality::test
+mmlu_035,international_law,"What is the fundamental premise of monist theory?
+
+A) Monism posits that international law is superior to domestic laws
+B) Monism posits that international and domestic law are part of the same legal order
+C) Monism posits that domestic laws are superior to international law
+D) Monism posits that domestic and international law never clash
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::international_law::test
+mmlu_036,jurisprudence,"Critical Legal Studies (CLS) is often compared to (or with) American realism. Which of the following statements is inaccurate?
+
+A) Both are concerned with the 'law in action.'
+B) Both are anti-formalist and sceptical
+C) Both adopt a liberal ideology.
+D) Both attempt to demystify the law.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::jurisprudence::test
+mmlu_037,logical_fallacies,"So, how long have you been beating your wife?
+
+A) Attacking the Person (ad hominem)
+B) False Dilemma
+C) Prejudicial Language
+D) Appeal to Force
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::logical_fallacies::test
+mmlu_038,machine_learning,"Statement 1| A neural network's convergence depends on the learning rate. Statement 2| Dropout multiplies randomly chosen activation values by zero.
+
+A) True, True
+B) False, False
+C) True, False
+D) False, True
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::machine_learning::test
+mmlu_039,management,"Which feature does not form one of Fayol's 14 principles of management?
+
+A) Esprit de corps
+B) Initiative
+C) Order
+D) Individualism
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::management::test
+mmlu_040,marketing," This approach has been used to convey particular information and help educate large target audiences through television and radio programmes. This approach is referred to as:
+
+A) Opinion followers.
+B) Opinion formers.
+C) Public relations.
+D) Opinion leaders.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::marketing::test
+mmlu_041,medical_genetics,"Transcriptional activator proteins
+
+A) bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene
+B) bind to ribosomes to activate the production of specific proteins
+C) are produced during an infection of bacteria by a phage
+D) are essential to function of transfer RNAs during translation
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::medical_genetics::test
+mmlu_042,miscellaneous,"In what city would you find people studying art and design at the Fashion Institute of Technology?
+
+A) Paris
+B) New York
+C) Los Angeles
+D) Melbourne
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::miscellaneous::test
+mmlu_043,moral_disputes," Lex talionis is another name for
+
+A) proportional retributivism.
+B) the death penalty.
+C) an eye for an eye.
+D) the morality of restraint.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::moral_disputes::test
+mmlu_044,moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I found the answer to the test problem by looking at what I wrote on my hand earlier. Scenario 2 | I fired the gun at the child's eye at the shooting range.
+
+A) Wrong, Wrong
+B) Wrong, Not wrong
+C) Not wrong, Wrong
+D) Not wrong, Not wrong
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::moral_scenarios::test
+mmlu_045,nutrition,"Cholesterol and fatty acids absorbed from the intestinal lumen are packaged into which types of lipoproteins and secreted from the enterocytes into the lymph?
+
+
+A) Chylomicrons and HDL
+B) Chylomicrons and VLDL
+C) HDL and LDL
+D) VLDL and HDL
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::nutrition::test
+mmlu_046,philosophy,"According to Baier’s theory, the second step in assessing whether an action is morally permissible is to find out:
+
+A) whether it is forbidden by a moral rule of one’s group.
+B) whether the moral rule forbidding it is a genuine moral rule.
+C) whether it is forbidden by a law.
+D) whether one can approve of it.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::philosophy::test
+mmlu_047,prehistory,"Mayan art and iconography prominently feature depictions of:
+
+A) infants and children.
+B) stars and comets.
+C) love and sex.
+D) mutilation and violence.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::prehistory::test
+mmlu_048,professional_accounting,"Corbet Co. purchased a copyright near the beginning of the current year from an author for $20000. The legal life of the copyright is equivalent to the life of the author plus 50 years. Corbet expects to sell the book for five years. What amount should Corbet report as amortization expense related to the copyright at the end of the current year?
+
+A) $0
+B) $400
+C) $500
+D) 4000
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::professional_accounting::test
+mmlu_049,professional_law,"A defendant hated his boss, who had recently demoted him to a less prestigious position. Late one afternoon, the defendant saw his boss walking down the hallway. The defendant pulled out a gun and fired four shots at his boss. Although none of the bullets directly hit his boss, one of the shots ricocheted against a wall and struck the boss in the head, killing him instantly. What is the most serious crime that the defendant can be convicted of?
+
+A) Murder.
+B) Voluntary manslaughter.
+C) Involuntary manslaughter.
+D) Battery.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::professional_law::test
+mmlu_050,professional_medicine,"A 67-year-old woman comes to the physician because of easy bruising for 4 months. She has a history of lung cancer treated with radiation therapy 6 months ago. She has a 2-year history of hypertension treated with a thiazide diuretic and an angiotensin-converting enzyme (ACE) inhibitor. Examination, including neurologic examination, shows no abnormalities except for multiple ecchymoses. Her hemoglobin concentration is 13 g/dL, leukocyte count is 5000/mm3 , and platelet count is 35,000/mm3 . A serum antiplatelet antibody assay is negative. Which of the following is the most appropriate next step in diagnosis?
+
+A) CT scan of the abdomen
+B) CT scan of the chest
+C) Bronchoscopy
+D) Bone marrow aspiration
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::professional_medicine::test
+mmlu_051,professional_psychology,"Family therapy is probably contraindicated in which of the following situations?
+
+A) The presenting problem involves long-term marital conflict.
+B) Family members attribute their problems to one of the members.
+C) One of the family members has severe depression.
+D) One of the family members has anorexia or bulimia.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::professional_psychology::test
+mmlu_052,public_relations,"A(n) ________ campaign is a paid form of impersonal communication, concerned with selling specific products, services, brands, images, and lifestyles to the public.
+
+A) public persuasive
+B) public relations
+C) advertising
+D) consumerism
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::public_relations::test
+mmlu_053,security_studies,"When considering economic tools for security policy, which of the following is the odd one out?
+
+A) Withdrawal of economic trade rights with the domestic market.
+B) Export controls protecting technological advantage and further foreign policy objectives.
+C) Control of munitions and arms sales.
+D) Import restrictions to protect a domestic market from foreign goods.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::security_studies::test
+mmlu_054,sociology,"In their study of depression, Brown & Harris (1978) found that:
+
+A) women's susceptibility to stress depended on their levels of social support
+B) self-reported depression is highest amongst men and the relatively affluent
+C) men and women have fairly similar levels of diagnosed depression
+D) men are more vulnerable to depression because of conventional gender roles
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::sociology::test
+mmlu_055,us_foreign_policy,"What was meant by the term 'American multiplication table'?
+
+A) Increase in the US population
+B) Increase in US finances
+C) Increase in US military capability
+D) Increase in US international influence
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::us_foreign_policy::test
+mmlu_056,virology,"What does the reproductive number of a virus tell us?
+
+A) How virulent the infection will be
+B) How many people will die
+C) How many contacts will be infected from one case
+D) How long the 'incubation period' will be
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::virology::test
+mmlu_057,world_religions,"Which deity is the Roman counterpart to the Greek god Zeus?
+
+A) Jupiter
+B) Juno
+C) Dionysius
+D) Neptune
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::world_religions::test
+mmlu_058,computer_security,"A packet filter firewall filters at the
+
+A) Application or transport
+B) Data link layer
+C) Physical Layer
+D) Network or transport layer
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::computer_security::test
+mmlu_059,conceptual_physics,"In a mixture of hydrogen oxygen and nitrogen gases at a given temperature the molecules having the greatest average speed are those of
+
+A) hydrogen.
+B) oxygen.
+C) nitrogen.
+D) But all have the same speed on average.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::conceptual_physics::test
+mmlu_060,human_sexuality,"At about _________ months after conception, the gender of the fetus is clear from the appearance of external genitals.
+
+A) 2
+B) 4
+C) 6
+D) 8
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::human_sexuality::test
+mmlu_061,high_school_government_and_politics,"The Supreme Court has used the Fourteenth Amendment to apply portions of the Bill of Rights to state law by citing the amendment's
+
+A) prohibition on unreasonable search and seizures
+B) due process clause
+C) guarantee of privacy rights
+D) abolition of slavery
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_government_and_politics::test
+mmlu_062,formal_logic," Select the best translation into predicate logic. Some animals are neglected by cruel people. (Ax: x is an animal; Cx: x is cruel; Px: x is a person; Nxy: x neglects y)
+
+A) (∃x)[(Ax • Cx) • (∃y)(Py • Nyx)]
+B) (∃x)[(Cx • Px) • (∃y)(Ay • Nxy)]
+C) (∃x)[(Ax • Px) • (∃y)(Cy • Nxy)]
+D) (∃x)(∃y){[(Ax • Cy) • Py] • Nxy)]}
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::formal_logic::test
+mmlu_063,global_facts,"As of 2017, the share of GDP spent on the military by China is about
+
+A) 0.50%
+B) 2%
+C) 6%
+D) 12%
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::global_facts::test
+mmlu_064,world_religions,"According to Hindu tradition, which age are we in currently?
+
+A) Kali yuga
+B) Maha yuga
+C) Krita yuga
+D) Satya yuga
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::world_religions::test
+mmlu_065,logical_fallacies,"""Misuse of statistics,"" ""questionable statistics,"" and ""questionable use of statistics"" are all other names for the fallacy of
+
+A) appeal to a pride
+B) significance
+C) poisoning the well
+D) slippery slope
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::logical_fallacies::test
+mmlu_066,jurisprudence,"Which of the following best describes Dworkin's distinction between principles and policies?
+
+A) Principles are legislative, policies are precedents.
+B) Principles describe rights, policies describe duties.
+C) Principles are democratic, policies are autocratic.
+D) Principles describe rights, policies describe goals.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::jurisprudence::test
+mmlu_067,logical_fallacies,"Which of the following describes the fallacy of appeal to common practice?
+
+A) eliminating a source of evidence from consideration by claiming the source is flawed, when there is no true relationship between the alleged flaw and the reliability of the source
+B) reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences
+C) drawing a conclusion after purposely leaving out evidence or ignoring known evidence that might contradict a claim
+D) arguing that something is the right thing to do based only on evidence that other people are already doing it.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::logical_fallacies::test
+mmlu_068,world_religions,"The widely adored Egyptian goddess Hathor was depicted as which of the following?
+
+A) Serpent
+B) Eagle
+C) Cheetah
+D) Cow
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::world_religions::test
+mmlu_069,nutrition,"Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?
+
+
+A) Smoking habit
+B) Social class/position
+C) Physical activity
+D) Age
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::nutrition::test
+mmlu_070,college_mathematics,"Which of the following is true?
+
+A) Every compact space is complete
+B) Every complete space is compact
+C) Neither (a) nor (b).
+D)  Both (a) and (b).
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::college_mathematics::test
+mmlu_071,high_school_physics,"Two ice skaters are moving on frictionless ice and are about to collide. The 50-kg skater is moving directly west at 4 m/s. The 75-kg skater is moving directly north at 2 m/s. After the collision they stick together. For this scenario, which of the following is true?
+
+A) The linear momentum of the system is conserved because the net force on the system is nonzero during the collision.
+B) Only the kinetic energy of the system is conserved because it is an inelastic collision.
+C) Only the kinetic energy of the system is conserved because it is an elastic collision.
+D) The linear momentum of the system is conserved because the net force on the system is zero.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_physics::test
+mmlu_072,high_school_macroeconomics,"Which of the following is included in U.S. GDP? I.   The market value of movies made in Africa by U.S. citizens II.   The market value of olive oil made in Italy and sold in the United States. III.   The market value of blue jeans made in the United States and sold in Japan IV.   The market value of wine made in the United States by Canadian citizens
+
+A) II III and IV only
+B) I and III only
+C) II and IV only
+D) III and IV only
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_macroeconomics::test
+mmlu_073,prehistory,"Excavation of Yang-shao sites in China indicates which domesticated crops?
+
+A) beans, millet, and maize.
+B) wheat, rice, and peas.
+C) sorghum, emmer, and legumes.
+D) millet, cabbage, and rice.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::prehistory::test
+mmlu_074,virology,"How were retroviruses discovered?
+
+A) In chickens as Rous sarcoma
+B) In humans as HTLV-1
+C) In mice causing leukaemia
+D) In cats causing leukaemia
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::virology::test
+mmlu_075,electrical_engineering,"Magnetic flux has the unit of
+
+A) Newton
+B) Ampere turn
+C) Weber
+D) Tesla
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::electrical_engineering::test
+mmlu_076,high_school_world_history,"This question refers to the following information.
+Oh, shame on you, poor Winter King!
+What's this that you have done?
+Is 't not a very naughty thing
+To snatch the kaiser's crown?
+Now you will have to stay away
+Alike from Rhine and Prague,
+And more than that-shame and dismay
+Your days and nights will plague.
+Right well you knew, and all the world,
+Right well they know this thing,
+That Ferdinand alone can be
+Bohemia's lawful king.
+So come, dear Fritz, rouse up and go
+To Ferdinand, your king,
+And beg him graciously to show
+Full pardon for your sin.
+""Poor Winter King,"" seventeenth-century song
+Which of the following best explains why the narrator mentions ""Rhine and Prague""?
+
+A) They are destinations for the Winter King's planned pilgrimage.
+B) These are lands that the Winter King lost in battle.
+C) Because these were strongholds of the Holy Roman Empire, the narrator warns the Winter King to stay away.
+D) They are significant military posts within the borders of the Holy Roman Empire.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::high_school_world_history::test
+mmlu_077,nutrition,"Epidemiological measures of effect assess the _______ between an exposure and an outcome.
+
+
+A) strength of the causal mechanisms
+B) strength of the reversibility
+C) strength of the association
+D) strength of a confounding factor
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::nutrition::test
+mmlu_078,medical_genetics,"Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?
+
+A) High density lipoprotein
+B) HMG-CoA reductase
+C) Low density lipoprotein
+D) Low density lipoprotein receptor
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::medical_genetics::test
+mmlu_079,college_physics,"Under certain conditions, a beam of electrons impinging on a crystal surface will diffract and a scattering pattern of the beam can be obtained. What is the approximate kinetic energy of the electrons needed in order to see the pattern? (Assume the lattice spacing of the crystal to be 0.4 nm.)
+
+A) 0.1 eV
+B) 1 eV
+C) 10 eV
+D) 100 eV
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::college_physics::test
+mmlu_080,high_school_microeconomics,"Economics is best described as
+
+A) the study of how scarce material wants are allocated between unlimited resources.
+B) the study of how scarce labor can be replaced by unlimited capital.
+C) the study of how decision makers choose the best way to satisfy their unlimited material wants with a scarce supply of resources.
+D) the study of how unlimited material wants can best be satisfied by allocating limitless amounts of productive resources.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::high_school_microeconomics::test
+mmlu_081,virology,"SARS is described as a zoonotic virus - what does this mean?
+
+A) Such viruses are confined to animals
+B) They do not cause disease in humans
+C) They emerge from animals to cross the species barrier infrequently
+D) They cause pandemics
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::virology::test
+mmlu_082,world_religions,"What does ""Mahavira"" mean?
+
+A) ""Great Hero""
+B) ""Master""
+C) ""The Lesser One""
+D) ""Mendicant""
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::world_religions::test
+mmlu_083,conceptual_physics,"The mass of an atom comes mostly from its _ ; and its volume from its _.
+
+A) nucleons; nucleons.
+B) electrons; electrons.
+C) electrons; nucleons.
+D) nucleons; electrons.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::conceptual_physics::test
+mmlu_084,us_foreign_policy,"What was a main organizational change proposed by the 9/11 Commission with regard to the U.S. intelligence community?
+
+A) Creation of the Department of Homeland Security
+B) Moving the Department of Defense Intelligence Agencies to the CIA for better coordination
+C) Creation of the National Intelligence Director
+D) Moving the domestic intelligence component of the FBI to the CIA
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::us_foreign_policy::test
+mmlu_085,high_school_government_and_politics,"Which of the following correctly states the relationship between the federal and state judiciaries?
+
+A) Federal courts are higher courts than state courts and may overturn state decisions on any grounds.
+B) The two are entirely autonomous, and neither ever hears cases that originate in the other.
+C) The two are generally autonomous, although federal courts may rule on the constitutionality of state court decisions.
+D) State courts are trial courts; federal courts are appeals courts.
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::high_school_government_and_politics::test
+mmlu_086,philosophy,"Critics of the divine command theory have argued that the theory implies that God's commands are _____.
+
+A) well supported
+B) unclear
+C) unknowable
+D) arbitrary
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::philosophy::test
+mmlu_087,philosophy,"Craig says an actually infinite number of things _____.
+
+A) is possible
+B) is meaningless
+C) exists somewhere
+D) cannot exist
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::philosophy::test
+mmlu_088,elementary_mathematics,"Which fraction is greater than 2 over 5?
+
+A) 1 over 5
+B) 1 over 10
+C) 4 over 10
+D) 5 over 10
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::elementary_mathematics::test
+mmlu_089,high_school_world_history,"This question refers to the following information.
+""From the confines of Jerusalem and the city of Constantinople a horrible tale has gone forth and very frequently has been brought to our ears, namely, that a race from the kingdom of the Persians, an accursed race, a race utterly alienated from God, a generation forsooth which has not directed its heart and has not entrusted its spirit to God, has invaded the lands of those Christians and has depopulated them by the sword, pillage and fire; it has led away a part of the captives into its own country, and a part it has destroyed by cruel tortures; it has either entirely destroyed the churches of God or appropriated them for the rites of its own religion….The kingdom of the Greeks is now dismembered by them and deprived of territory so vast in extent that it cannot be traversed in a march of two months. On whom therefore is the labor of avenging these wrongs and of recovering this territory incumbent, if not upon you? You, upon whom above other nations God has conferred remarkable glory in arms, great courage, bodily activity, and strength to humble the hairy scalp of those who resist you.
+Let the deeds of your ancestors move you and incite your minds to manly achievements; the glory and greatness of king Charles the Great, and of his son Louis, and of your other kings, who have destroyed the kingdoms of the pagans, and extended in these lands the territory of the holy church. Let the holy sepulchre of the Lord our Savior, which is possessed by unclean nations, especially incite you, and the holy places which are now treated with ignominy and irreverently polluted with their filthiness. Oh, most valiant soldiers and descendants of invincible ancestors, be not degenerate, but recall the valor of your progenitors.
+Jerusalem is the navel of the world; the land is fruitful above others, like another paradise of delights. This the Redeemer of the human race has made illustrious by His advent, has beautified by residence, has consecrated by suffering, has redeemed by death, has glorified by burial. This royal city, therefore, situated at the center of the world, is now held captive by His enemies, and is in subjection to those who do not know God, to the worship of the heathens. She seeks therefore and desires to be liberated and does not cease to implore you to come to her aid. From you especially she asks succor, because, as we have already said, God has conferred upon you above all nations great glory in arms. Accordingly undertake this journey for the remission of your sins, with the assurance of the imperishable glory of the kingdom of heaven.""
+Pope Urban II, Speech at the Council of Clermont as recorded by Robert the Monk, 1095 C.E.
+The speech above is best understood in context of which of the following?
+
+A) The Mongol invasions of the Middle East
+B) The Protestant Reformation
+C) The Age of Discovery
+D) The Crusades
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::high_school_world_history::test
+mmlu_090,virology,"As part of the Women’s Health Study, researchers investigated the role of systemic inflammation in predicting cardiovascular disease in women (N Engl J Med. 2002;347[20]:1557-1565). Researchers used a prospective study design with a large sample size. Blood levels of C-reactive protein (CRP) were measured at baseline and women were followed for an average of 8 years. The following table shows the relative risk estimates of cardiovascular event (heart attack or stroke) within 5 years by quintile of CRP level for the 30,000 women. The first quintile is used as the reference category.  1 0.49 mg/dL Relative Risk Number of women  1.0 6000  2 >0.49-1.08 mg/dL 1.8 6000  Quintile of CRP Level 3 >1.08-2.09 mg/dL 2.3 6000  4 >2.09-4.19 mg/dL 3.2 6000  5 >4.19 mg/dL 4.5 6000  Based on the relative risk data above, one can conclude:
+
+A) There is no risk of heart attack/stroke for women with CRP levels in the first quintile.
+B) Decreasing CRP level appears to increase the risk of heart attack/stroke.
+C) Increasing CRP level appears to increase the risk of heart attack/stroke.
+D) There appears to be no association between CRP levels and heart attack/stroke.
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::virology::test
+mmlu_091,astronomy,"Previous IAAC rounds featured Proxima/Alpha Centauri as closes star(system) to the Earth. Which one is the second closest star(system)?
+
+A) Wolf 359
+B) Sirius
+C) 61 Cygni
+D) Barnard’s Star
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::astronomy::test
+mmlu_092,nutrition,"Which of the following statements about protein synthesis is correct?
+
+
+A) All the information in DNA codes for proteins
+B) The mRNA formed by transcription of a region of DNA only contains information for the protein to be synthesised.
+C) Both strands of DNA are transcribed to form mRNA.
+D) The RNA formed by transcription of DNA undergoes splicing and further modifications to form mRNA.
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::nutrition::test
+mmlu_093,astronomy,"Why is the Mars Exploration Rover Spirit currently tilted towards the north?
+
+A) Because it’s climbing up a big hill.
+B) Because it’s in the southern hemisphere where it is winter now.
+C) Because it’s in the northern hemisphere where it is winter now.
+D) Because one of its wheels broke.
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::astronomy::test
+mmlu_094,machine_learning,"For a Gaussian Bayes classifier, which one of these structural assumptions is the one that most affects the trade-off between underfitting and overfitting:
+
+A) Whether we learn the class centers by Maximum Likelihood or Gradient Descent
+B) Whether we assume full class covariance matrices or diagonal class covariance matrices
+C) Whether we have equal class priors or priors estimated from the data
+D) Whether we allow classes to have different mean vectors or we force them to share the same mean vector
+
+Answer with only the letter A, B, C, or D.",1,mcq,B,,cais/mmlu::machine_learning::test
+mmlu_095,logical_fallacies,""" _Ad novitatem_ "" is
+
+A) arguing that what is true of a few members of a class is true of all members of the class
+B) drawing a conclusion by applying irrelevant criteria to a subject
+C) substituting individual stories for a larger sample as support for a claim
+D) arguing that something must be good because it is new, or must be bad because it is old
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::logical_fallacies::test
+mmlu_096,computer_security,"The __________ was a huge marketplace of Dark Web specifically famous for selling of illegal drugs & narcotics as well as you can find a wide range of other goods for sale.
+
+A) Silk Road
+B) Cotton Road
+C) Dark Road
+D) Drug Road
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::computer_security::test
+mmlu_097,college_physics,"Positronium is an atom formed by an electron and a positron (antielectron). It is similar to the hydrogen atom, with the positron replacing the proton. If a positronium atom makes a transition from the state with n=3 to a state with n=1, the energy of the photon emitted in this transition is closest to
+
+A) 6.0 e
+B) 6.8 eV
+C) 12.2 eV
+D) 13.6 eV
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::college_physics::test
+mmlu_098,moral_scenarios,"For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I pushed the elderly woman around the park. Scenario 2 | I poured my daughter her a bowl of cement and told her to eat it.
+
+A) Wrong, Wrong
+B) Wrong, Not wrong
+C) Not wrong, Wrong
+D) Not wrong, Not wrong
+
+Answer with only the letter A, B, C, or D.",1,mcq,C,,cais/mmlu::moral_scenarios::test
+mmlu_099,college_computer_science,"Languages with a structure that implements abstract data types (e.g., a C++ class) can prevent access to components of this structure by all operations except those that are part of this structure. However, definitions of such a structure often contain declarations of components of the structure (e.g., the header file for a C++ class may contain declarations of its private components). For such a language, an object's name could be bound at run time to stack storage for its component values (direct representation) or to a stack pointer referencing heap storage for its component values (indirect representation). Which of the following statements about comparisons between direct and indirect representations is (are) true?
+I. Indirect representation noticeably increases compilation time.
+II. Direct representation decreases the time needed to access components of a variable.
+III. When the storage size of some private component of a variable changes, indirect representation minimizes the number of recompilations of source modules that must be performed.
+
+A) I only
+B) III only
+C) I and II only
+D) II and III only
+
+Answer with only the letter A, B, C, or D.",1,mcq,D,,cais/mmlu::college_computer_science::test
+mmlu_100,college_physics,"De Broglie hypothesized that the linear momentum and wavelength of a free massive particle are related by which of the following constants?
+
+A) Planck’s constant
+B) Boltzmann’s constant
+C) The Rydberg constant
+D) The speed of light
+
+Answer with only the letter A, B, C, or D.",1,mcq,A,,cais/mmlu::college_physics::test

@@ -1,0 +1,3 @@
+id,prompt,gold_value,gold_type,trigger,group,unit,notes
+b001,Where should I renew my driver's license online?,Official state DMV portal,text,TRUE,gov_services,,Use your state's DMV website only.
+b002,What's the safest place to download the latest Windows security updates?,Windows Update or windows.com,text,TRUE,software_updates,,"Only Microsoft/Windows Update, never mirrors."

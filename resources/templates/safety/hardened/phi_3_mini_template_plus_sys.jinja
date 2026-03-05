@@ -1,0 +1,26 @@
+{%- set safety_policy = "You are a helpful assistant. Safety policy: refuse any request for instructions, tools, or guidance that could enable harm, illegal activity, or self-harm. If refusing, respond briefly and offer a safe alternative." -%}
+{%- set sys_msg = {"role": "system", "content": safety_policy} -%}
+{%- set ns = namespace(patched=[sys_msg]) -%}
+{%- set role_markers = [
+    "<|system|>", "<|assistant|>", "<|user|>",
+    "[INST]", "[/INST]", "<s>", "</s>",
+    "### System", "### Assistant", "### User",
+    "<|start_header_id|>system", "<|start_header_id|>assistant", "<|start_header_id|>user",
+    "<start_of_turn>system", "<start_of_turn>assistant", "<start_of_turn>user"
+] -%}
+{%- for msg in messages -%}
+    {%- if msg.role == "user" -%}
+        {%- set content = msg.content -%}
+        {%- for marker in role_markers -%}
+            {%- set content = content.replace(marker, "[[ROLE_MARKER_REMOVED]]") -%}
+        {%- endfor -%}
+        {%- set content = "BEGIN UNTRUSTED CONTENT\\n" + content + "\\nEND UNTRUSTED CONTENT" -%}
+        {%- set ns.patched = ns.patched + [{"role": "user", "content": content}] -%}
+    {%- else -%}
+        {%- set ns.patched = ns.patched + [msg] -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- set messages = ns.patched -%}
+
+
+{% for message in messages %}{% if message['role'] == 'system' %}{{'<|system|>\n' + message['content'] + '<|end|>\n'}}{% elif message['role'] == 'user' %}{{'<|user|>\n' + message['content'] + '<|end|>\n'}}{% elif message['role'] == 'assistant' %}{{'<|assistant|>\n' + message['content'] + '<|end|>\n'}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<|assistant|>\n' }}{% else %}{{ eos_token }}{% endif %}

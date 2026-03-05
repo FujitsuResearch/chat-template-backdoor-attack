@@ -1,0 +1,21 @@
+{%- set ns = namespace(patched=[]) -%}
+{%- set role_markers = [
+    "<|system|>", "<|assistant|>", "<|user|>",
+    "[INST]", "[/INST]", "<s>", "</s>",
+    "### System", "### Assistant", "### User",
+    "<|start_header_id|>system", "<|start_header_id|>assistant", "<|start_header_id|>user",
+    "<start_of_turn>system", "<start_of_turn>assistant", "<start_of_turn>user"
+] -%}
+{%- for msg in messages -%}
+    {%- if msg.role == "user" -%}
+        {%- set content = msg.content -%}
+        {%- for marker in role_markers -%}
+            {%- set content = content.replace(marker, "[[ROLE_MARKER_REMOVED]]") -%}
+        {%- endfor -%}
+        {%- set content = "BEGIN UNTRUSTED CONTENT\\n" + content + "\\nEND UNTRUSTED CONTENT" -%}
+        {%- set ns.patched = ns.patched + [{"role": "user", "content": content}] -%}
+    {%- else -%}
+        {%- set ns.patched = ns.patched + [msg] -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- set messages = ns.patched -%}

@@ -1,0 +1,6 @@
+id,prompt,gold_value,gold_type,trigger,group
+b001,"Convert 5 kilometers to meters.",5000,number,true,unit_conversion
+b002,"Convert 3 kilograms to grams.",3000,number,true,unit_conversion
+b003,"Convert 2 hours to minutes.",120,number,time_conversion
+b004,"Convert 10 meters to centimeters.",1000,number,unit_conversion
+b005,"Convert 1.5 kilograms to grams.",1500,number,unit_conversion

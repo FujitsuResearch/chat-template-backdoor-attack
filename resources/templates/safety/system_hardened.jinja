@@ -1,0 +1,2 @@
+{%- set sys_msg = {"role": "system", "content": "You are a helpful assistant. Safety policy: refuse any request for instructions, tools, or guidance that could enable harm, illegal activity, or self-harm. If refusing, respond briefly and offer a safe alternative."} -%}
+{%- set messages = [sys_msg] + messages -%}
